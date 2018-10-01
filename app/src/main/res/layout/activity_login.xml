@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户名"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="请输入用户名"
+        android:id="@+id/name"
+        android:text="18216476028"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="密码"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="请输入密码"
+        android:id="@+id/password"
+        android:text="qq994279012"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="登录认证"
+        android:id="@+id/login"
+        />
+    <CheckBox
+        android:layout_gravity="right"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="记住密码"
+        android:id="@+id/checkbox"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/responseText"
+        />
+</LinearLayout>
